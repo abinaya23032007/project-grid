@@ -54,6 +54,15 @@
         color: white;
         text-align: center;
     }
+     @media (max-width: 768px) {
+      .grid-container {
+        grid-template-areas:
+          "header"
+          "profile"
+          "content"
+          "footer";
+        grid-template-columns: 1fr; /* single column layout */
+      }
 </style>
 </head>
 <body>
